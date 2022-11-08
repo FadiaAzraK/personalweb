@@ -165,49 +165,9 @@ a {
   color: rgb(9, 9, 9);
   border-radius: 5px;
 }
-/*-- responsive --*/
-@media screen and (max-width: 1034px){
-  .textLoader{
-      left: 46.2%;
+@media screen and (max-height: 360px){
+  .photopp{
+   display: inline-block;
+   justify-content: center;
   }
 }
-
-@media screen and (max-width: 824px){
-  .textLoader {
-      left: 47.2%;
-  }
-}
-
-@media screen and (max-width: 732px){
-  .textLoader {
-      left: 48.2%;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .loader{
-      left: 36.5%;;
-  }
-  .textLoader {
-      left: 40.5%;
-  }
-}
-
-@media screen and (max-height: 432px){
-  .textLoader {
-      top: 65%;
-  }
-}
-
-@media screen and (max-height: 350px){
-  .textLoader {
-      top: 75%;
-  }
-}
-
-@media screen and (max-height: 312px){
-  .textLoader {
-      display: none;
-  }
-}
-/*-- responsive --*/
